@@ -1267,6 +1267,10 @@ function layout({ title, description, path, body, schema = "", keywords = "" }) 
   <link rel="canonical" href="${canonical}">
   <style>${css}</style>
   ${schema}
+  <script>
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
   <header class="header" aria-label="Cabecera principal">
