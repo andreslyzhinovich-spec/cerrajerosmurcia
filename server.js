@@ -1302,6 +1302,10 @@ function layout({ title, description, path, body, schema = "", keywords = "" }) 
     <p class="footer-phone">Teléfono central: ${BRAND.displayPhone}</p>
     <p>Servicio de cerrajería urgente, 24h, económico y transparente en Murcia, barrios, pedanías y municipios cercanos.</p>
   </footer>
+  <script>
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>`;
 }
