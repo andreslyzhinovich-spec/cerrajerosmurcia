@@ -1,0 +1,16 @@
+{
+  "name": "cerrajerosmurcia",
+  "version": "1.0.0",
+  "description": "Cerrajeros Murcia 24h - AbreExpress",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["cerrajeros", "murcia"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/analytics": "^1.4.1"
+  }
+}
